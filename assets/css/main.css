@@ -72,3 +72,34 @@ h1, h2 {
 }
 
 
+/* HERO SECTION */
+
+#hero-outer{
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image{
+    background-image: url(../images/hero-image.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    animation: hero-zoom 5s forwards;
+}
+
+
+/* ANIMATION */
+
+@keyframes hero-zoom {
+      
+    from{
+       transform: scale(1);
+    }
+
+   to{
+    transform: scale(1.1);
+   }
+}
