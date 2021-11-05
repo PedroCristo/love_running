@@ -421,9 +421,9 @@ footer{
      
       }
 
-
+    }
  /* FORM SIGUP */
-/* Form */
+
 
 .form-section {
     clear: left;
@@ -456,6 +456,7 @@ footer{
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    outline: none;
 }
 
 input[type=radio]{
@@ -481,9 +482,6 @@ input[type=radio]{
     background-color: #fafafa;
     color: #f16c6b;
 }
-
-=======
->>>>>>> b386daa96a46bfb67189fcccd8be4c01765c26b2
 
 
 
