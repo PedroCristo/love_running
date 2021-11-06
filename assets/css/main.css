@@ -272,6 +272,7 @@ footer{
 
 .social-networks {
     text-align: center;
+    margin-bottom: 50px;
 
 }
 
@@ -476,11 +477,18 @@ input[type=radio]{
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+    cursor: pointer;
 }
 
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+.fa-heartbeat {
+    color:#f16c6b;
+    margin-left: 8px;
+
 }
 
 
@@ -496,5 +504,7 @@ input[type=radio]{
     position: initial;
     color: #fff; 
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 100%);
-    margin: 0!important;
+    margin-bottom: -150x;
+
+
 }
