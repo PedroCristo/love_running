@@ -338,7 +338,7 @@ footer{
         width: 100%;
         clear: both;
         height: 200px;
-        padding: 0;
+        padding: 10px 0;
         column-gap: 0;
        
     
@@ -505,6 +505,7 @@ input[type=radio]{
     color: #fff; 
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 100%);
     margin-bottom: -150x;
+    clear: both;
 
 
 }
